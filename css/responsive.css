@@ -1,0 +1,69 @@
+@media (max-width: 1200px){
+    
+.btn-container{
+        
+    }   
+.title-container{
+        width: 900px;
+        margin-left: 0px;
+        margin-right: 40px;
+    }   
+.sub-title{
+        width: 1000px;
+    }   
+#image-wrapper{
+        width: 700px;
+    }   
+.pics-wrapper{
+        
+        width: 60%;
+    }   
+.pics-wrapper-left{
+        width: 60%;
+    }
+.mask-container {
+    top: 175px;
+}
+.absolute-container {
+    margin-top: -100px;
+    position: absolute;
+}
+.mask{
+        top: 175px;
+    } 
+.full-width-container-left.container-left-switch {
+    margin-top: 27px;
+    top: 155px;
+}
+.full-width-container.absolute-container.julian-pic {
+    margin-top: -304px;
+}
+.full-width-container-left.girl-pic {
+    margin-top: -54px;
+}
+.full-width-container.absolute-container.cd-wrapper {
+    margin-top: -338px;
+}
+.btn-wrapper-rotate{
+        left: 105px
+    }
+.unskewed-container{
+        width: 66%;
+    }
+
+}
+
+@media(max-width: 1024px){
+    
+    .bloc-title{
+        display: block
+    }
+    
+    .btn-container{
+        right: 250px;
+    }
+    
+    #image-wrapper{
+        width: 471px;
+    }
+}

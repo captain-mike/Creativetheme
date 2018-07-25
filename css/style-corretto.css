@@ -1,0 +1,199 @@
+/* Regole generali*/
+
+body{
+    color: #515151;
+    font-family: 'Varela Round', sans-serif;
+}
+.color_pink{
+    
+    color: #f33176;
+    
+}
+.color_black{
+    
+}
+.color_white{
+    color: #fff;
+}
+
+
+.bg_pink{
+    
+    background-color: #f33176;
+}
+.bg_black{
+    
+    background-color: #515151;
+    
+}
+
+.btn{
+    color: #515151;
+}
+.btn:hover{
+    background-color: #f33176;
+}
+
+a{
+    color: #515151;
+}
+a:hover, a:active{
+    color: #f33176;
+}
+
+.underline_pink:hover{
+
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f33176;
+}
+
+.rotateWrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.rotate90{
+    
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 13px;
+    line-height: 50px;
+    display: inline-block;
+    width: 100%;
+    top: 75px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container_large{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header-box .container-large{
+    height: 100%;
+}
+
+
+
+/*HEADER*/
+#main-header h1{
+    
+    font-size: 90px
+}
+
+#main-header h2{
+    font-size: 24px;
+}
+.header-box{
+    height: 50vh;
+    padding-top: 10vh;
+}
+.header-box .container_large{
+    height: 100%;
+}
+.header-triangle{
+    
+    height: 40vh;
+    
+}
+
+.header-triangle svg polygon{
+    fill: #f33176;
+}
+
+.small-col, .center-col{
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+}
+
+.small-col{
+    width: 50px;
+    color: #fff;
+}
+
+.menu-toggle{
+    width: 100%;
+    text-align: center;
+}
+
+.center-col{
+    width: calc(100% - 109px);
+}
+
+.center-col-wrapper{
+    padding: 70px 40px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+
+/**GRIGLIA PORTFOLIO*/
+
+.item{
+    width: 50%;
+    position: relative;
+    height: 150px;
+    margin-bottom: 150px;
+    
+}
+
+.item .titleWrapper{
+    position: absolute;
+    width: 50px;
+    height: 100%;
+}
+.item-right{
+    margin-left: calc(50% - 40px);
+}
+
+.item-left{
+    margin-right: calc(50% - 40px);
+}
+
+.item img{
+    max-width: 100%;
+    box-shadow: 10px 10px 0px #ccc;
+}
+
+.item .rotateWrapper{
+    position: relative;
+}
+
+.item-right .titleWrapper{
+    right: -65px;
+}
+
+.item-left .titleWrapper{
+    left: -65px;
+}
+
+.item .rotate90{
+    bottom: 0px;
+    top: auto;
+}
+
+/*FOOTER/*
+
+
+
+
+
+
+
+
+
+
+
